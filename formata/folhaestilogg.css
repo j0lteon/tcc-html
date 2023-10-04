@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: #F7F7F7;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header1{
+    background: #f7f7f7;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#headerpt1{
+    color: white;
+    display: inline-block;
+    width: 120px;
+    margin-top: 10px;
+}
+
+#logo{
+    height: 45px;
+}
+
+#headerpt2{
+    background: #F7F7F7;
+    border-radius: 10px 10px 0 0;
+    width: 70%;
+    min-width: 50%;
+    padding: 10px;
+}
+
+#pesquisa{
+    height: 35px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.headerverde{
+    background: #32541C;
+    display: block;
+}
+
+#headerpt3{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #32541C;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#headerpt3 a, #headerpt3 a:visited{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#headerpt3 a:hover{
+    text-decoration: underline;
+}
+
+#hdivi{
+    margin: 15px;
+}
+
+.retangulo{
+    width: 90%;
+    margin: 35px 4.4% 40px 4.4%;
+    overflow: hidden;
+}
+
+.retangulo .carrossel{
+    width: 500%;
+    animation-name: anime;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.retangulo .carrossel img{
+    width: 19.9%;
+}
+
+@keyframes anime{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}
+}
+
+.produtos{
+    width: 89%;
+    margin: 10px 5% 70px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#destaque{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#quadradinho{
+    border: 1px solid #888;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 5px #999;
+    margin-top: 30px;
+}
+
+#foto{
+    max-height: 230px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #888;
+}
+
+.secao2{
+    background: #DBDBDB;
+    padding: 15px 15px 50px 15px;
+}
+
+.s2h1{
+    font-size: 2em;
+    margin: 15px;
+}
+
+.cont1{
+    width: 33%;
+    display: inline-block;
+}
+
+.cont1 img{
+    width: 60%;
+}
+
+footer{
+    color: #fff;
+    background: #32541C;
+    padding: 20px;
+}
+
+.rodape{
+    text-align: left;
+    width: 49%;
+    display: inline-block;
+}
+
+.divisoria{
+    height: 3em;
+    width: 1px;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}

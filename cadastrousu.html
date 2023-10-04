@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #cccc;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+        .column {
+            display: inline-block;
+            width: 48%;
+            margin-right: 2%;
+        }
+
+        .column:last-child {
+            margin-right: 0;
+        }
+
+        .btn-submit {
+            background-color: #32541c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-submit:hover {
+            background-color: #1C6E12;
+        }
+
+        .btn-reset {
+            background-color: #32541c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-reset:hover {
+            background-color: #1C6E12;
+        }
+
+        h1 {
+            font-size: xx-large;
+            margin-bottom: 10px;
+            color: #32541C;
+        }
+    
+        h2 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #32541C;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastre-se</h1>
+        <h2>Preencha os campos:</h2>
+        <form>
+            <div class="form-group">
+            </div>
+            <div class="form-group">
+                <div class="column">
+                    <label for="name">Nome:</label>
+                    <input type="name" id="nome" name="nome" required>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" >
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" >
+                </div>
+                <div class="column">
+                    <label for="phone">Telefone:</label>
+                    <input type="text" id="phonw" name="phone">
+                    <label for="datansc">Data de Nascimento:</label>
+                    <input type="text" id="datanasc" name="datanasc" >
+                    <label for="e-confr">Confirmar E-mail:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="s-confr">Confirmar senha</label>
+                    <input type="password" id="senha" name="senha">
+                </div>
+            </div>
+           <button type="submit" class="btn-submit">Cadastrar</button>
+           <button type="reset" class="btn-reset">Apagar campos</button>
+        </form>
+    </div>
+</body>
+</html>
